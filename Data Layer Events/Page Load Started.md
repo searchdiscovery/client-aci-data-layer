@@ -11,11 +11,12 @@ appEventData.push({
         "pageCategory": "<pageCategory>",
         "pageName": "<pageName>",
         "pageTitle": "<pageTitle>",
+        "pageTopics": "<pageTopics>",
         "pageType": "<pageType>",
         "siteName": "<siteName>",
         "subsection": "<subsection>",
         "subsection2": "<subsection2>",
-        "subsection3": "<subsection3>"
+        "subsection3": "<subsection3>",
     }
 });
 ```
@@ -27,6 +28,7 @@ appEventData.push({
 |pageCategory|string|General category or Site Section of the page. Top level of page hierarchy.|Home, About Us, Shop, Account, Blog, Investors|||||||
 |pageName|string|Describes the page and its content specifically. |product - XYZ123, Mens - Tops - Sweaters, Order Confirmation|||||||
 |pageTitle|string|HTML title tag for the page||||||||
+|pageTopics|string|A delimited list of taxonomy terms or content tags applied to the current page.|CSR;Fund;Inflation|||||||
 |pageType|string|Describes what purpose the page serves. Often aligns with the CMS template.|Home, Event Detail, Property Detail, Product Listing, Blog Post, Shopping Cart|||||||
 |siteName|string|Common language used within the business to refer to the website. May be specific County Sites.|Prospecting-EU, Prospecting-US, Member Portal, Shop-CA, Shop-US, Shop-EU|||||||
 |subsection|string|First sub-level of hierarchy under pageCategory or Site Section. |Shop &gt; Kids, Shop &gt; Mens, Shop &gt; Womens|||||||
